@@ -3,7 +3,7 @@ import { useState } from "react";
 import { nanoid } from "nanoid";
 
 function App() {
-  const [tarea, setTarea] = useState();
+  const [tarea, setTarea] = useState("");
   const [tareas, setTareas] = useState([]);
   const [modoEdicion, setModoEdicion] = useState(false);
   const [idArray, setId] = useState("");
